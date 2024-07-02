@@ -1,4 +1,4 @@
 export const config = {
-  baseUrl: 'https://api-lotso-ecommerce.onrender.com/',
+  baseUrl: 'https://api-ecommerce-vql0.onrender.com/',
   maxSizeUploadAvatar: 1048576
 }
