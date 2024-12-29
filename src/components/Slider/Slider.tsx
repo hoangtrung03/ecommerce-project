@@ -49,12 +49,7 @@ const Slider = () => {
       >
         <SwiperSlide>
           <div className='relative'>
-            <img
-              src='https://ik.imagekit.io/fh01eqtgh/Banner/phono-slider-2.jpg?updatedAt=1679906842999'
-              alt='SmartPhone'
-              width='1920'
-              height='940'
-            />
+            <img src='/assets/images/slider-home-1.jpg' alt='SmartPhone' width='1920' height='940' />
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: activeIndex === 0 ? 1 : 0 }}
@@ -63,7 +58,7 @@ const Slider = () => {
             >
               <div className='flex h-full items-center justify-around'>
                 <div className='text-center'>
-                  <p className='fs-30'>4K Resolution</p>
+                  <p className='fs-30 lg:text-7xl'>4K Resolution</p>
                   <h2 className='mt-2 text-4xl'>Exclusive Steel Frame</h2>
                   <Link to={path.productlist} title='Shop Now'>
                     <motion.div
@@ -83,12 +78,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='relative'>
-            <img
-              src='https://ik.imagekit.io/fh01eqtgh/Banner/phono-slider-1.jpg?updatedAt=1679906843020'
-              alt='SmartPhone'
-              width='1920'
-              height='940'
-            />
+            <img src='/assets/images/slider-home-2.jpg' alt='SmartPhone' width='1920' height='940' />
             <motion.div
               className='absolute bottom-0 left-0 right-0 top-0 hidden md:block'
               initial={{ opacity: 0 }}
@@ -96,9 +86,8 @@ const Slider = () => {
               transition={{ duration: 0.8 }}
             >
               <div className='flex h-full items-center justify-around'>
-                <div></div>
-                <div className='text-center text-white'>
-                  <p className='fs-30'>Curvy Bevel Dual Audio</p>
+                <div className='text-center text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]'>
+                  <p className='fs-30 lg:text-7xl'>Curvy Bevel Dual Audio</p>
                   <h2 className='mt-2 text-4xl'>Zania Black Edition</h2>
                   <Link to={path.productlist} title='Shop Now'>
                     <motion.div
@@ -117,12 +106,7 @@ const Slider = () => {
         </SwiperSlide>
         <SwiperSlide>
           <div className='relative'>
-            <img
-              src='https://ik.imagekit.io/fh01eqtgh/Banner/phono-slider-3.jpg?updatedAt=1679906842969'
-              alt='SmartPhone'
-              width='1920'
-              height='940'
-            />
+            <img src='/assets/images/slider-home-3.jpg' alt='SmartPhone' width='1920' height='940' />
             <motion.div
               className='absolute bottom-0 left-0 right-0 top-0 hidden md:block'
               initial={{ opacity: 0 }}
@@ -130,9 +114,8 @@ const Slider = () => {
               transition={{ duration: 0.8 }}
             >
               <div className='flex h-full items-center justify-around'>
-                <div></div>
-                <div className='text-center text-white'>
-                  <p className='fs-30'>Delta Zertiga Processor</p>
+                <div className='text-center text-black'>
+                  <p className='fs-30 lg:text-7xl'>Delta Zertiga Processor</p>
                   <h2 className='mt-2 text-4xl'>Full Screen Display</h2>
                   <Link to={path.productlist} title='Shop Now'>
                     <motion.div
@@ -145,6 +128,7 @@ const Slider = () => {
                     </motion.div>
                   </Link>
                 </div>
+                <div></div>
               </div>
             </motion.div>
           </div>

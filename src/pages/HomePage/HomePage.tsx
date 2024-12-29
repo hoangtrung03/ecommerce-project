@@ -37,15 +37,15 @@ export default function HomePage() {
 
   return (
     <>
+      <Helmet>
+        <title>Home | Lotso Shop</title>
+        <meta
+          name='description'
+          content="Welcome to Lotso Shop, your one-stop destination for online shopping! Our user-friendly homepage makes it easy to browse our vast selection of products and find exactly what you're looking for. From electronics to fashion, we offer a wide range of high-quality products at competitive prices. Plus, with our secure checkout process and fast shipping, you can shop with confidence and convenience. Visit our homepage now to start exploring and discover the best deals and discounts."
+        />
+      </Helmet>
+      <Slider />
       <div className='container mt-10'>
-        <Helmet>
-          <title>Home | Lotso Shop</title>
-          <meta
-            name='description'
-            content="Welcome to Lotso Shop, your one-stop destination for online shopping! Our user-friendly homepage makes it easy to browse our vast selection of products and find exactly what you're looking for. From electronics to fashion, we offer a wide range of high-quality products at competitive prices. Plus, with our secure checkout process and fast shipping, you can shop with confidence and convenience. Visit our homepage now to start exploring and discover the best deals and discounts."
-          />
-        </Helmet>
-        <Slider />
         <h2 className='fs-18 mt-5 font-bold text-primary-377DFF lg:fs-30 lg:mt-10'>{t('header.new-products')}</h2>
         <div className='relative'>
           <Swiper
